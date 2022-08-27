@@ -1,31 +1,22 @@
 ---
 layout: page
 title: Searching with Regex
-permalink: /module2/exercise
+permalink: /module2/exercise2
 ---
 
 #### Learning Regular Expressions (Regex)
 ---
+#### Exercise 2: Parliment
 
-#### Exercise 1: Learning Regex
+In this exercise you will analyze a file named parliament.txt containing a list of the members of the Australian House of Representatives (MPs).
 
-Regular expressions (regex) are extremely useful in extracting information from text such as code, log files, spreadsheets, or even documents. It allows you to write expressions which "match" to to lines based on the regex, much like `control f` with more options.
-
-To get started, work through the following exercises on RegexOne:
-- [regexone.com](https://regexone.com/)
+[download](/static/parliament.txt) (right click and save page to download)
 
 <br>
 
-<p align="center">
- <img src="https://imgs.xkcd.com/comics/regular_expressions.png" />
-</p>
-*Wait, forgot to escape a space. Wheeeeee[taptaptap]eeeeee!*
+![](https://hotelkurrajong.com.au/wp-content/uploads/2020/02/canberra-accomodation-attractions-parliament-house.jpg)
 
----
-
-#### Exercise 1: Learning Regex
-
-In this exercise you will analyze a file named parliament.txt containing a list of the members of the Australian House of Representatives (MPs).
+<br>
 
 **Write a grep -E command that will print all the lines in the file where the electorate begins with 'W'.**
 
@@ -41,7 +32,11 @@ It should print:
     Ms Zali Steggall OAM: Member for Warringah, New South Wales
     Hon Dan Tehan: Member for Wannon, Victoria
 
+<br>
+
 ---
+
+<br>
 
 **Write a grep -E command that will print all the lines in the file where the MP's given name (first name) is "Andrew".**
 
@@ -54,7 +49,11 @@ It should print:
     Hon Andrew Wallace: Member for Fisher, Queensland
     Mr Andrew Wilkie: Member for Clark, Tasmania
 
+<br>
+
 ---
+
+<br>
 
 **Write a grep -E command that will print all the lines in the file where the MP's surname (last name) ends in the letters 'll'.**
 
@@ -66,7 +65,11 @@ It should print:
     Mr Rob Mitchell: Member for McEwen, Victoria
     Ms Zali Steggall OAM: Member for Warringah, New South Wales
 
+<br>
+
 ---
+
+<br>
 
 **Write a grep -E command that will print all the lines in the file where the MP's surname (last name) and the electorate name ends in the letter 'y'.**
 
@@ -75,7 +78,11 @@ It should print:
     Ms Peta Murphy: Member for Dunkley, Victoria
     Mr Rowan Ramsey: Member for Grey, South Australia
 
+<br>
+
 ---
+
+<br>
 
 **Write a grep -E command that will print all the lines in the file where the MP's surname (last name) or the electorate name ends in the letter 'y'.**
 
@@ -102,7 +109,11 @@ It should print:
     Ms Anika Wells: Member for Lilley, Queensland
     Mr Trent Zimmerman: Member for North Sydney, New South Wales
             
+<br>
+
 ---
+
+<br>
 
 **Write a grep -E command that will print all the lines in the file where there is any word in the MP's name or the electorate name that ends in "ng".**
 
@@ -116,7 +127,11 @@ It should print:
     Hon Bill Shorten: Member for Maribyrnong, Victoria
     Mr Terry Young: Member for Longman, Queensland
 
+<br>
+
 ---
+
+<br>
 
 **Write a grep -E command that will print all the lines in the file where the MP's surname (last name) both begins and ends with a vowel.**
 
@@ -124,7 +139,11 @@ It should print:
 
     Hon Anthony Albanese: Member for Grayndler, New South Wales
             
+<br>
+
 ---
+
+<br>
 
 **Write a grep -E command that will print all the lines in the file where the electorate name contains multiple words (separated by spaces or hyphens).**
 
@@ -136,6 +155,10 @@ It should print:
     Hon Matt Thistlethwaite: Member for Kingsford Smith, New South Wales
     Hon Jason Wood: Member for La Trobe, Victoria
     Mr Trent Zimmerman: Member for North Sydney, New South Wales
+
+<br>
+
+##### [> Next Exercise](/module2/exercise3)
 
 <br>
 <br>

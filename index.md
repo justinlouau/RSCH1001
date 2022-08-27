@@ -13,13 +13,15 @@ This course will give you a crash introduction to applied computing in research.
 ---
 
 #### Module 1 - Getting Setup!
-- [Exercises](/module1/exercise)
-- [Answers](/module1/answer)
+- [Exercise 1](/module1/exercise1)
+- [Exercise 2](/module1/exercise2)
+- [Exercise 3](/module1/exercise3)
 
 --- 
 
 #### Module 2 - Searching with Regex
-- [Exercises](/module2/exercise)
+- [Exercise 1](/module2/exercise1)
+- [Exercise 2](/module2/exercise2)
 - [Answers](/module2/answer)
 
 --- 
