@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Searching with Regex
-permalink: /module2/exercise2
+permalink: /module3/exercise3
 ---
 
 #### Learning Regular Expressions (Regex)
@@ -11,6 +11,8 @@ permalink: /module2/exercise2
 In this exercise you will analyze a file named parliament.txt containing a list of the members of the Australian House of Representatives (MPs).
 
 [download](/static/parliament.txt) (right click and save page to download)
+
+To do this, you will be using the `grep` command. The Linux grep command is a string and pattern matching utility that displays matching lines from multiple files.
 
 <br>
 
@@ -158,7 +160,7 @@ It should print:
 
 <br>
 
-##### [> Next Exercise](/module2/exercise3)
+##### [> Next Exercise](/module4/exercise4)
 
 <br>
 <br>

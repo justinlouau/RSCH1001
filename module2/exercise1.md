@@ -22,7 +22,7 @@ To get started, complete all of the exercises on [RegexOne](https://regexone.com
 
 <br>
 
-##### [> Next Exercise](/module2/exercise2)
+##### [> End of Module 2](/)
 
 <br>
 <br>

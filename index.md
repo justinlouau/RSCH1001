@@ -21,13 +21,13 @@ This course will give you a crash introduction to applied computing in research.
 
 #### Module 2 - Searching with Regex
 - [Exercise 1](/module2/exercise1)
-- [Exercise 2](/module2/exercise2)
-- [Answers](/module2/answer)
 
 --- 
 
 #### Module 3 - Using the Shell
-- [Exercises](/module3/exercise)
+- [Exercise 1](/module3/exercise1)
+- [Exercise 2](/module3/exercise2)
+- [Exercise 3](/module3/exercise3)
 - [Answers](/module3/answer)
 
 --- 
