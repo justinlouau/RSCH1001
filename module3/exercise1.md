@@ -6,25 +6,33 @@ permalink: /module3/exercise1
 
 #### Setting up and getting to know the tools in your toolkit
 ---
-#### Exercise 4: Flags and Arguments
+#### Exercise 1: Pipes and Redirects
 
-**Flags**
+**Vertical Bar**
 
-Flags are additional arguments you can pass into calls to change the default behaviour and access more advanced functions.
+You can use pipes to pass data from one command to another, such as in this example:
 
-Here are a few, try them out!
+    cat hello.txt | wc -l
 
-| Command 					| Description 				|
-| ----------- 				| ----------- 				|
-| `ls -a`					| Displays hidden files	 	|
-| `rm -d <folder>`			| Removes a directory		|
-| `rm -r <folder>`			| Removes files recursively (will remove all files in a folder including files in subfolders) - **CAUTION**		 |
+In this case, this command will read the contents of hello.txt and give the word count in lines. 
+This allows you to easily find the number of lines in a file.
 
-You can also combine arguments - do not try this one out unless you are very sure
+**Redirects**
 
-| Command 					| Description 				|
-| ----------- 				| ----------- 				|
-| `rm -rf <folder>`			| Removes files recursively and forcefully (without user confirmation) - <span style="color:red">**DANGER**</span>		 |
+You can also use a redirect to change where a command writes it's output to. Usually, output is written to 
+standard out (the terminal), but you can change it to a file using the right arrow symbol.
+
+    echo "Hello" > hello.txt
+
+You can also use 2 right arrows to append:
+
+    seq 10 20 > numbers_1.txt
+    seq 10 20 > numbers_1.txt
+
+    seq 10 20 >> numbers_2.txt
+    seq 10 20 >> numbers_2.txt
+
+Try these out and see the difference!
 
 <br>
 
